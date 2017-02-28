@@ -89,7 +89,7 @@
                 SelectMethod="GetCategories">
                 <ItemTemplate>
                     <b style="font-size: large;font-style: normal">
-                        <a href="/ProductDetails.aspx?id=<%#: Item.CategoryID %>">
+                        <a href="/ProductList.aspx?id=<%#: Item.CategoryID %>">
                             <%#: Item.CategoryName %>
                         </a>
                     </b>
